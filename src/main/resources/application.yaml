@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: oauth-client
+  security:
+    oauth2:
+      client:
+        registration:
+          telegram:
+            # localhost testing is not supported at the time of writing, so I would recommend using a Cloudflare Tunnel.
+            redirect-uri: ${REDIRECT_URL}/login/oauth2/code/telegram
+            client-id: ${CLIENT_ID:123456789}
+            client-secret: ${CLIENT_SECRET:Fhjksadkhj7ASF-1KJh3FSA5khk-jkasdH6AS-DLkhj}
+            scope:
+              - openid
+              - phone
+              - profile
+              - telegram:bot_access
+        provider:
+          telegram:
+            issuer-uri: https://oauth.telegram.org
