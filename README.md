@@ -73,5 +73,24 @@ Since Telegram requires a public URL, it is highly recommended to use a Cloudfla
 
 Once authenticated, you will be redirected back to the /secret endpoint and see the "LESSSGOOOO!" message.
 
+## Screenshots
+
+The following images demonstrate the authentication flow:
+
+### 1. Login Page
+![Login Page](images/1.login_page.png)
+
+### 2. Login with Telegram
+![Login Telegram](images/2.login_telegram.png)
+
+### 3. Login Confirmation
+![Login Confirmation](images/3.login_confirmation.png)
+
+### 4. Phone Confirmation
+![Phone Confirmation](images/4.phone_confirmation.png)
+
+### 5. Success Message
+![Success Message](images/5.success_message.png)
+
 ---
 Built using Spring Boot and Java 25.
